@@ -1,0 +1,19 @@
+.navbar{
+    margin-bottom: 40px;
+    background-color: darkgray;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color:darkgray;
+}
+.card-content{
+    background-color: rgb(230, 230, 230);
+}
+.card-header-title{
+    background-color:rgb(100, 99, 99);
+    color: white;
+}

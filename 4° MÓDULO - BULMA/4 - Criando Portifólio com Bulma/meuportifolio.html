@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Thiago Melo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+            <header>
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://www.linkedin.com/in/thiago-melo-7b9ba21a8/">
+                            <img src="data:image/png;base64,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">
+                        </a>
+                    </div>
+
+                        <div id="navbarBasicExample" class="navbar-menu is-active">
+                            <div class="navbar-start">
+                                <a class="navbar-item" href="meuportifolio.html">
+                                    <strong>Início</strong>
+                                </a>
+
+                                <a class="navbar-item" href="contact.html">
+                                    <strong>Contato</strong>
+                                </a>
+                            </div>
+                        </div>
+                        
+                </nav>
+            </header>
+
+            <section class="section">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-4by3">
+                                        <img src="https://media.licdn.com/dms/image/C4D03AQFfQCeR3KypSw/profile-displayphoto-shrink_800_800/0/1594607705029?e=1688601600&v=beta&t=znS2USrNSwk3b019jTP_IMjOH90D0nWgoSwm7v9M0mg" alt="Placeholder image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">Thiago Melo</p>
+                                            <span class="tag is-dark is-medium">Desenvolvedor Fulkl Stack JavaScript Jr.</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>Celular: (11) 98298-6766</p>
+                                        <p>Email: thiagomelop@yahoo.com.br</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-9">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        SOBRE MIM
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        Meu nome é Thiago Melo, tenho 29 anos e sou Analista de Sistemas. 
+
+Iniciei minha carreira na TIM Mobile como jovem aprendiz, na qual desenvolvia serviços administrativos como relatórios, planos de metas, entre outros. 
+Recebi uma proposta para trabalhar na Via Satélite que prestava serviço de Segurança Eletrônica para a atual ENEL, e foi essa oportunidade que me despertou o interesse de trabalhar com tecnologia. Adquiri experiência e capacidade para realizar instalação, manutenção, configuração dos equipamentos de automação. 
+Como plano de carreira optei por fazer um curso técnico em Eletrotécnica, e com isso tive a oportunidade de ser efetivado para Técnico Pleno. Em minha trajetória tive a chance de conhecer mais sobre automação residencial focado em programação.
+Ainda na área de automação realizei a certificação na Scenario Automation e me tornei apto para programar equipamentos. 
+Seguindo meu plano de carreira me formei em Análise e Desenvolvimento de Sistemas no ano de 2021, e atualmente estou cursando Desenvolvimento Web Full Stack para ingressar na área com mais conhecimentos e habilidades.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        EXPERIÊNCIAS
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <div class="columns">
+                                            <div class="column">
+                                                <figure class="image is-128x128">
+                                                    <img class="is-rounded" src="data:image/png;base64,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">
+                                                </figure>
+                                            </div>
+
+                                            <div class="column is-9">
+                                                <p class="title is-5">Tecnico Pleno II <span class="tag is-light"><a href="https://www.alkanse.com.br/">Alkanse Equip. Eletrônicos</a></span></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate a nisi ex animi perferendis sit nobis placeat aliquid. Labore, sit fuga. Sequi nostrum natus, eveniet dolorum error aspernatur id optio?</p>
+                                            </div>
+                                        </div>
+
+                                            <hr>
+
+                                        <div class="columns">
+                                            <div class="column">
+                                                <figure class="image is-128x128">
+                                                    <img class="is-rounded" src="https://aqltda.com.br/images/logo100.png" width="50%">
+                                                </figure>
+                                            </div>
+
+                                            <div class="column is-9">
+                                                <p class="title is-5">Auxiliar de Produção <span class="tag is-light"><a href="http://www.aqltda.com.br/images/logo100.png">Air Quality</a></span></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus qui maxime, inventore excepturi amet dolor rerum illo mollitia libero facere beatae quo ullam facilis fuga quam animi. Minus, eaque temporibus.</p>
+                                            </div>
+                                        </div>
+                                            <hr>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <figure class="image is-128x128">
+                                                    <img class="is-rounded" src="data:image/png;base64,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">
+                                                </figure>
+                                            </div>
+
+                                            <div class="column is-9">
+                                                <p class="title is-5">Técnico Pleno II <span class="tag is-light"><a href="https://www.vsse.com.br/">Via Satélite Sistemas</a></span></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate a nisi ex animi perferendis sit nobis placeat aliquid. Labore, sit fuga. Sequi nostrum natus, eveniet dolorum error aspernatur id optio?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        FORMAÇÃO
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <div>
+                                                <p class="title is-5">JavaScript Full Stack <span class="tag is-light"><a href="https://programador.onebitcode.com/">OneBitCode</a></span></p>
+                                            <ul>
+                                                <li>Introdução à Web + HTML5</li>
+                                                <li>Dominando o CSS + Bulma</li>
+                                                <li>JavaScript e Lógica de Programação</li>
+                                                <li>JavaScript e Lógica de Programação + Git e GitHub</li>
+                                                <li>JavaScript Moderno (ES6+)</li>
+                                                <li>Dominando o React</li>
+                                                <li>Dominando o NodeJS (ExpressJS)</li>
+                                                <li>Projeto Final: App inspirado no Evernote</li>
+                                            </ul>
+                                        </div>
+
+                                        <hr>
+
+                                        <div>
+                                                <p class="title is-5">Análise e Desenvolvimento de Sistemas <span class="tag is-light"><a href="https://www.unip.br/">Universidade Paulista</a></span></p>
+                                            <ul>
+                                                <li>Projetar, desenvolver, implantar e manter Sistemas de Informação</li>
+                                                <li>Gerenciar equipes de desenvolvimento de sistemas</li>
+                                                <li>Diagnosticar problemas e propor melhorias baseadas em sistemas computacionais</li>
+                                                <li>Aplicar adequadamente recursos computacionais (hardware e software)</li>
+                                                <li>Projetar e implementar Sistemas de Informação aderentes aos objetivos estratégicos das organizações</li>
+                                                <li>Produzir software utilizando métodos e técnicas adequadas e visando a alcançar os atributos essenciais de software</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>
+                            <strong>Portifólio</strong> de <a href="https://www.linkedin.com/in/thiago-melo-7b9ba21a8/">Thiago Melo</a>. O código fonte foi criado em VS Code e as aulas ministradas por Leonardo Scorza da<a href="https://programador.onebitcode.com/?ref=C54036552P&gclid=CjwKCAjwgr6TBhAGEiwA3aVuIUHgQJM2SBCrWi0oCHQE8MmM15r1LHHsVZKG2q5STXNNF-05Fo6p_BoCny4QAvD_BwE"> OneBitCode</a>
+                    </p>
+                </div>
+            </footer>
+    </body>
+</html>
